@@ -1,0 +1,13 @@
+import random
+#choice="rock"
+choice=random.choice(["rock","paper","scissor"])
+computer=random.choice(["rock","paper","scissor"])
+print("you choose",choice)
+print("Computer choose",computer)
+if(choice=="rock"):
+    if(computer=="rock"):
+        print("its a draw")
+    elif(computer=="paper"):
+        print("oh no you lose.")
+    elif(computer=="scissor"):
+        print("Damn u killed Him")
